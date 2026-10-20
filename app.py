@@ -3,11 +3,6 @@
 # import requests
 # import pickle
 
-# def fetch_poster(movie_id):
-#   response =  requests.get('https://api.themoviedb.org/3/movie/{}?api_key=fd32aad783d62c3d5c0117639aaadaec'.format(movie_id))
-#   data = response.json
-#   return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
-
 # def recommend(movie):
 #   movie_index = movies[movies['title'] == movie].index[0]
 #   distances = similarity[movie_index]
